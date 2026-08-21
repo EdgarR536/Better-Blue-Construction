@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Better Blue Construction provides project management and specialized construction services for residential and commercial builds.">
+  <title>Request an Estimate | Better Blue Construction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Better Blue Construction home"><span
+        class="brand__mark">BB</span><span>Better Blue<br><em>Construction</em></span></a>
+    <nav class="site-nav" id="primaryNav" aria-label="Primary navigation">
+      <a href="#services">Services</a><a href="#process">Our process</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#estimate">Request an estimate <span aria-hidden="true">↗</span></a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false"
+      aria-controls="primaryNav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__copy">
+        <p class="eyebrow">Built with intention</p>
+        <h1>Let’s build something <em>solid.</em></h1>
+        <p class="hero__lead">From the first conversation to the final walkthrough, Better Blue Construction brings
+          clear planning, skilled trades, and dependable execution to every project.</p><a class="button button--dark"
+          href="#estimate">Start your project <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero__visual"><img src="../Images/f9012410-d6c0-46d5-b127-073eb6374015.png"
+          alt="Better Blue Construction project illustration"><span
+          class="hero__stamp">Worth<br>the<br>investment</span></div>
+
+    </section>
+
+    <section class="intro-band" id="services">
+      <div>
+        <p class="eyebrow">What we do</p>
+        <h2>One team for every phase of the build.</h2>
+      </div>
+      <p>We coordinate the details that turn a good idea into a finished space. Tell us what you are planning and we
+        will help map the next right step.</p>
+    </section>
+
+    <section class="service-section">
+      <div class="section-heading">
+        <p class="eyebrow">Our capabilities</p>
+        <h2>Practical expertise.<br><em>Thoughtful results.</em></h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card service-card--feature"><span class="service-card__number">01</span>
+          <h3>General contracting</h3>
+          <p>Reliable coordination across the whole project, from planning and preparation through final details.</p><a
+            href="#estimate">Ask about this <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="service-card"><span class="service-card__number">02</span>
+          <h3>Specialized trades</h3>
+          <p>Focused workmanship for the systems and finishes that make a build perform beautifully.</p><a
+            href="#estimate">Ask about this <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="service-card"><span class="service-card__number">03</span>
+          <h3>Project management</h3>
+          <p>Clear communication, organized scheduling, and a steady point of contact from start to finish.</p><a
+            href="#estimate">Ask about this <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="process-section" id="process">
+      <div class="process-image"><img src="../Images/IMG_2380.jpeg"
+          alt="Insulated pipes and mechanical equipment inside a project"></div>
+      <div class="process-copy">
+        <p class="eyebrow">A clearer way forward</p>
+        <h2>Good work starts with a good conversation.</h2>
+        <ol class="process-list">
+          <li><span>01</span>
+            <div>
+              <h3>Tell us what you have in mind</h3>
+              <p>We listen first, then ask the questions that clarify scope.</p>
+            </div>
+          </li>
+          <li><span>02</span>
+            <div>
+              <h3>Build the right plan</h3>
+              <p>We outline the work, priorities, and practical next steps.</p>
+            </div>
+          </li>
+          <li><span>03</span>
+            <div>
+              <h3>Move forward with confidence</h3>
+              <p>Your project gets a focused team and a clear line of communication.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="estimate-section" id="estimate">
+      <div class="estimate-intro">
+        <p class="eyebrow">Let’s talk</p>
+        <h2>Bring your vision<br><em>to life.</em></h2>
+        <p>Share a few details about your project and we’ll follow up with a clear next step.</p>
+        <div class="contact-note"><span class="contact-note__icon">✦</span><span>Prefer a direct conversation?<br><a
+              href="tel:+19516097371">(951) 609-7371</a></span></div>
+      </div>
+      <form class="estimate-form" id="estimateForm" action="https://formspree.io/f/xjybjjzk" method="POST">
+        <div class="form-row"><label>Full name<input name="name" type="text" autocomplete="name" placeholder="Your name"
+              required></label><label>Phone number<input name="phone" type="tel" autocomplete="tel"
+              placeholder="(000) 000-0000" required></label></div>
+        <div class="form-row"><label>Email address<input name="email" type="email" autocomplete="email"
+              placeholder="you@example.com" required></label><label>Project type<select name="service" required>
+              <option value="" selected disabled>Select one</option>
+              <option>General contracting</option>
+              <option>Specialized trades</option>
+              <option>Project management</option>
+              <option>Commercial construction</option>
+            </select></label></div><label>Tell us about the project<textarea name="message" rows="5"
+            placeholder="What are you hoping to build or improve?" required></textarea></label><button
+          class="button button--orange" type="submit">Send your request <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-top">
+      <div><a class="brand brand--footer" href="#top"><span class="brand__mark">BB</span><span>Better
+            Blue<br><em>Construction</em></span></a>
+        <p class="footer-tagline">Built for the work ahead.</p>
+      </div><a class="footer-contact"
+        href="mailto:hello@betterblueconstruction.com">hello@betterblueconstruction.com<br><span>(951)
+          609-7371</span></a>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Better Blue Construction</span><span></span><a href="#estimate">Request an
+        estimate ↗</a></div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.getElementById('navToggle');
+      var nav = document.getElementById('primaryNav');
+      toggle.addEventListener('click', function () { var isOpen = nav.classList.toggle('is-open'); toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false'); toggle.querySelector('.sr-only').textContent = isOpen ? 'Close menu' : 'Open menu'; });
+      nav.addEventListener('click', function (event) { if (event.target.tagName === 'A') { nav.classList.remove('is-open'); toggle.setAttribute('aria-expanded', 'false'); toggle.querySelector('.sr-only').textContent = 'Open menu'; } });
+    })();
+  </script>
+</body>
+
+</html>
